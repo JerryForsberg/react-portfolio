@@ -1,6 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
+const styles = {
+    font: {
+        fontFamily: "Crimson Text, serif",
+    }
+}
+
 function NavBar() {
     // We'll go into the Hooks API later, for now, we are just using some code
     // from the react-router docs (https://reacttraining.com/react-router/web/api/Hooks/uselocation)
@@ -10,13 +16,13 @@ function NavBar() {
     return (
         <ul className="nav nav-tabs">
             <li className="nav-item">
-                <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                <Link style={styles.font} to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                     About
         </Link>
             </li>
 
             <li className="nav-item">
-                <Link
+                <Link style={styles.font}
                     to="/past_work"
                     className={location.pathname === "/past_work" ? "nav-link active" : "nav-link"}
                 >
@@ -24,7 +30,7 @@ function NavBar() {
         </Link>
             </li>
             <li className="nav-item">
-                <Link
+                <Link style={styles.font}
                     to="/contact"
                     className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                 >
