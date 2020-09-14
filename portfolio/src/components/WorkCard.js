@@ -1,75 +1,45 @@
 import React from "react";
-import { Carousel, Container } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 
 const styles = {
   h3: {
     justifyContent: "center",
     textAlign: "center",
     fontFamily: "Crimson Text, serif",
+    background: "black",
+    color: "white"
+  },
+  text: {
+    fontFamily: "Crimson Text, serif",
+  },
+
+  button: {
+    justifyContent: "center",
+    textAlign: "center",
+    fontFamily: "Crimson Text, serif",
+    color: "white"
   }
+
 };
 
-function WorkCard() {
+
+function WorkCard(props) {
   return (
-    <div>
-      <Container>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-    </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-      </Container>
+    <div className="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+      <Card style={{ width: '18rem', margin: '15px' }}>
+        <Card.Img variant="top" src={props.image} />
+        <Card.Body>
+          <Card.Title style={styles.h3}>{props.title}</Card.Title>
+          <Card.Text style={styles.text}>
+            {props.text}
+          </Card.Text>
+          <Card.Footer className="text-center d-flex flex-column">
+            <Button className="mt-auto" variant="primary" href={props.href} style={styles.button}>{props.title}</Button>
+          </Card.Footer>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
 
 export default WorkCard;
-
-
-{/* <div>
-<h3 style={styles.h3}> To see some past projects, please click the images in the carousel below to be taken to deployed versions of the projects. Please note that these are test versions.</h3>
-</div>
-<Carousel>
-<Carousel.Item>
-  <a href="https://yuliatikhonova.github.io/Lyrics-To-Go/" >
-    <img
-      className="d-block w-100"
-      src="/images/lyrics-to-go.PNG"
-      alt="lyrics to go"
-    />
-  </a>
-  <Carousel.Caption>
-
-  </Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-  <img
-    className="d-block w-100"
-    src="/images/handcrafted_heirloom.PNG"
-    alt="handcrafted heirloom"
-  />
-
-  <Carousel.Caption>
-
-  </Carousel.Caption>
-</Carousel.Item>
-<Carousel.Item>
-  <a href=" https://critical-hit-fantasy-character.herokuapp.com/">
-    <img
-      className="d-block w-100"
-      src="/images/critical-hit.PNG"
-      alt="Third slide"
-    />
-  </a>
-
-  <Carousel.Caption>
-
-  </Carousel.Caption>
-</Carousel.Item>
-</Carousel> */}
