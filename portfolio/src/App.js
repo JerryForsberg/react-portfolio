@@ -4,7 +4,9 @@ import './App.css';
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PastWork from "./pages/PastWork";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
