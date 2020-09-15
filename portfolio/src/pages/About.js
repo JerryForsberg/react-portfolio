@@ -32,10 +32,11 @@ const styles = {
         color: "white"
     },
     img: {
-        margin: "3px",
-        width: "100%",
-
+        height: "50px",
+        marginRight: "10px"
+        
     }
+  
 
 };
 
@@ -43,7 +44,7 @@ function About() {
     return (
         <Container style={styles.container}>
             <div>
-                <h1 style={styles.h1}>About</h1>
+                <h1 style={styles.h1}>About Me</h1>
                 <hr />
                 <Jumbotron >
                     <Row>
@@ -53,13 +54,28 @@ function About() {
                         <Col xs={12} sm={12} md={8}>
                             <h1 style={styles.h1}>Jerry Forsberg</h1>
                             <p style={styles.p}>
-                                This is a modified jumbotron that occupies the entire horizontal space of
-                                its parent.
+                                Full Stack Web Developer
+                                <br /><br />
+                                I am 
+                                <br /><br />
+                                <a href="https://github.com/JerryForsberg">
+                                <Image style={styles.img} src="/images/iconmonstr-github-1-240.png" rounded fluid />
+                                </a>
+                                <a href="https://www.linkedin.com/in/jerry-forsberg-005181139/">
+                                <Image style={styles.img} src="/images/iconmonstr-linkedin-3-240.png" rounded fluid />
+                                </a>
+                                <a href="/images/Jerry's Resume (1).pdf">
+                                <Image style={styles.img} src="/images/noun_Resume_3517226.png" rounded fluid />
+                                </a>
+                                
+                                
+
+                                
                             </p>
                             <Row >
                                 <Col className="text-center d-flex flex-column">
                                     <Button className="mt-auto" style={styles.button} variant="primary" 
-                                    href="#">Learn more</Button>
+                                    href="/past_work">See Past Work</Button>
                                 </Col>
                             </Row>
 

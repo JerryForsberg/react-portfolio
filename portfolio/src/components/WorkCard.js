@@ -30,7 +30,7 @@ function WorkCard(props) {
         <Card.Img variant="top" src={props.image} />
         <Card.Body>
           <Card.Title style={styles.h3}>{props.title}</Card.Title>
-          <Card.Text style={styles.text}>
+          <Card.Text  className="mb-5"style={styles.text}>
             {props.text}
           </Card.Text>
           <Card.Footer className="text-center d-flex flex-column">

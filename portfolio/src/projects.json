@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Lyrics To Go",
     "image": "/images/lyrics-to-go.PNG",
-    "text": "This app was created using multiple APIs. It allows the user to find song lyrics and album artwork based on a search. The interface is clean and user friendly.                                                                ",
+    "text": "Lyrics to go was created using multiple APIs. It allows the user to search for songs and then renders the lyrics and album artwork to the page, as long as they are available from the API. The interface is clean and user friendly.                                                              ",
     "href": "https://yuliatikhonova.github.io/Lyrics-To-Go/"
   },
   {
     "id": 2,
     "title": "Handcrafted Heirloom",
     "image": "/images/handcrafted_heirloom.PNG",
-    "text": "This website was built for a client to help gain additional exposure for their business. It was built with react, using mysql for database interaction as well as the paypal API.                                          ",
+    "text": "This website was built for a client to help create additional exposure, as well as give them the added revenue stream of ecommerce, for their woodworking business. It was built with react, using mysql for database interaction as well as the paypal API.                                          ",
     "href": "#"
   },
   {
