@@ -10,7 +10,7 @@ along with this, there are 2 components, one for the navbar, and one for cards.
 
 ##### Components
 
-The navbar uses react router for navigation and is only called in the app.js file
+The navbar uses react router for navigation, using link, location and ternary operators to tell the app which page is currently active. This component is only called in the app.js file
 
 The card component takes in props to display relevant information for each card on the past work page.
 
