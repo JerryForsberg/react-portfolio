@@ -23,6 +23,7 @@ const styles = {
         fontFamily: "Crimson Text, serif",
         textAlign: "center",
         justifyContent: "center",
+        fontSize: 20
 
     },
     button: {
@@ -54,9 +55,16 @@ function About() {
                         <Col xs={12} sm={12} md={8}>
                             <h1 style={styles.h1}>Jerry Forsberg</h1>
                             <p style={styles.p}>
-                                Full Stack Web Developer
+                                I am a full stack Web Developer, driven to grow and learn, as well as create. I am looking for an opportunity that will challenge me, and offer some level of support and patience as I continue to improve as a developer.
+                                <br /><br/>
+                                I think of myself as someone who takes initiative and accountability, and is always open to constructive criticism. 
                                 <br /><br />
-                                I am 
+                                I have completed a certification program in full stack development from University of Arizona, where I gained experience in several technologies, including:
+                                <br />
+                                - html, css, bootstrap, React.js, Node.js, Express.js MongoDB, mySQL, RESTful API and more.
+                                <br /><br/>
+                                To learn more about me, or to get in touch, please click the links below:
+
                                 <br /><br />
                                 <a href="https://github.com/JerryForsberg">
                                 <Image style={styles.img} src="/images/iconmonstr-github-1-240.png" rounded fluid />

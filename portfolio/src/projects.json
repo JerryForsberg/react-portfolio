@@ -11,7 +11,7 @@
     "title": "Handcrafted Heirloom",
     "image": "/images/handcrafted_heirloom.PNG",
     "text": "This website was built for a client to help create additional exposure, as well as give them the added revenue stream of ecommerce, for their woodworking business. It was built with react, using mysql for database interaction as well as the paypal API.                                          ",
-    "href": "#"
+    "href": "#]https://shrouded-everglades-61786.herokuapp.com/"
   },
   {
     "id": 3,
