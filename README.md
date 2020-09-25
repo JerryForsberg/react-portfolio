@@ -1,30 +1,70 @@
-# react-portfolio
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This portfolio was created using react with both functional and class based components, and was styled using mostly react bootstrap, with some in-line styling. 
+## Available Scripts
 
-## Structure
+In the project directory, you can run:
 
-The portfolio consists of an about me page, a past work page, and a contact page. 
+### `npm start`
 
-along with this, there are 2 components, one for the navbar, and one for cards. 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-##### Components
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+  
 
-The navbar uses react router for navigation, using link, location and ternary operators to tell the app which page is currently active. This component is only called in the app.js file
+  lkn
+### `npm test`
 
-The card component takes in props to display relevant information for each card on the past work page.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-##### Pages
+### `npm run build`
 
-Each page uses some predefined components from react bootstrap. 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The about page uses a simple jumbotron inside of a container, and has within it, some image components from bootstrap, as well as icons that link to my github and linkedin and a pdf of my resume, as well as a button for navigation to the past work page. 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-The past work page also uses react bootstrap for the container, and then calls in the card that I created in the components, and then maps data from a json file, using state, and uses that data to fill in each individual card with the corresponding data.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The contact page is a basic form inside of a container with some placeholder and a submit button.
+### `npm run eject`
 
-Each page is then imported by app.js and exact routes are set using react-router-dom.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Deployed Version
- This app is deployed using netlify and can be found using the following link https://jerry-forsberg.netlify.app/
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

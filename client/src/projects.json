@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Lyrics To Go",
+    "image": "/images/lyrics-to-go.PNG",
+    "text": "Lyrics to go was created using multiple APIs. It allows the user to search for songs and then renders the lyrics and album artwork to the page, as long as they are available from the API. The interface is clean and user friendly.                                                              ",
+    "href": "https://yuliatikhonova.github.io/Lyrics-To-Go/"
+  },
+  {
+    "id": 2,
+    "title": "Handcrafted Heirloom",
+    "image": "/images/handcrafted_heirloom.PNG",
+    "text": "This website was built for a client to help create additional exposure, as well as give them the added revenue stream of ecommerce, for their woodworking business. It was built with react, using mysql for database interaction as well as the paypal API.                                          ",
+    "href": "#]https://shrouded-everglades-61786.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "title": "Critical Hit",
+    "image": "/images/critical-hit.PNG",
+    "text": "This app was made for quick creation of RPG characters. The user can choose to create a new character with new specifications, or pull up the data on a previously created character. This app was built using mysql and javascript.",
+    "href": "https://critical-hit-fantasy-character.herokuapp.com/"
+  }
+]
+  
