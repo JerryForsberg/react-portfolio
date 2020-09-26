@@ -22,9 +22,9 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 app.use(cors());
 // app.use(cors(corsOptions));
 
-// app.use(function (req, res) {
-//     res.sendFile(path.join(__dirname, "./client/build/index.html"));
-// });
+app.get( "*", (req, res) => {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
 app.post('/api/contact', (req, res) => {
     let data = req.body;
