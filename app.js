@@ -3,9 +3,9 @@ const nodemailer = require("nodemailer");
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require('cors');
-// const path = require("path");
+const path = require("path");
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // let corsOptions = {
 //     origin: "http://localhost:3000"
@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // app.use(express.urlencoded({ extended: true }));
 // app.use(express.json());
-// app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.use(cors());
 // app.use(cors(corsOptions));
 
